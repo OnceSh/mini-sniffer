@@ -1,12 +1,12 @@
 <RCC>
     <qresource prefix="/">
-        <file>down.png</file>
-        <file>downest.png</file>
-        <file>empty.png</file>
-        <file>shark.png</file>
-        <file>start.png</file>
-        <file>stop.png</file>
-        <file>up.png</file>
-        <file>upest.png</file>
+        <file>src/down.png</file>
+        <file>src/downest.png</file>
+        <file>src/empty.png</file>
+        <file>src/start.png</file>
+        <file>src/stop.png</file>
+        <file>src/up.png</file>
+        <file>src/upest.png</file>
+        <file>src/wireshark.png</file>
     </qresource>
 </RCC>

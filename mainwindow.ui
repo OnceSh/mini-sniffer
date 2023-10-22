@@ -12,7 +12,7 @@
   </property>
   <property name="windowIcon">
    <iconset resource="src.qrc">
-    <normaloff>:/shark.png</normaloff>:/shark.png</iconset>
+    <normaloff>:/src/wireshark.png</normaloff>:/src/wireshark.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="mouseTracking">
@@ -100,7 +100,6 @@
         <font>
          <family>Consolas</family>
          <pointsize>12</pointsize>
-         <weight>50</weight>
          <bold>false</bold>
         </font>
        </property>
@@ -120,7 +119,7 @@
      <x>0</x>
      <y>0</y>
      <width>1425</width>
-     <height>25</height>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu">
@@ -169,7 +168,7 @@
   <action name="actionstart_capture">
    <property name="icon">
     <iconset resource="src.qrc">
-     <normaloff>:/start.png</normaloff>:/start.png</iconset>
+     <normaloff>:/src/start.png</normaloff>:/src/start.png</iconset>
    </property>
    <property name="text">
     <string>start/stop</string>
@@ -178,7 +177,7 @@
   <action name="actionclear_all">
    <property name="icon">
     <iconset resource="src.qrc">
-     <normaloff>:/empty.png</normaloff>:/empty.png</iconset>
+     <normaloff>:/src/empty.png</normaloff>:/src/empty.png</iconset>
    </property>
    <property name="text">
     <string>clear all</string>
@@ -187,7 +186,7 @@
   <action name="actionup">
    <property name="icon">
     <iconset resource="src.qrc">
-     <normaloff>:/up.png</normaloff>:/up.png</iconset>
+     <normaloff>:/src/up.png</normaloff>:/src/up.png</iconset>
    </property>
    <property name="text">
     <string>up</string>
@@ -196,7 +195,7 @@
   <action name="actiondown">
    <property name="icon">
     <iconset resource="src.qrc">
-     <normaloff>:/down.png</normaloff>:/down.png</iconset>
+     <normaloff>:/src/down.png</normaloff>:/src/down.png</iconset>
    </property>
    <property name="text">
     <string>down</string>
@@ -205,7 +204,7 @@
   <action name="actionTop">
    <property name="icon">
     <iconset resource="src.qrc">
-     <normaloff>:/upest.png</normaloff>:/upest.png</iconset>
+     <normaloff>:/src/upest.png</normaloff>:/src/upest.png</iconset>
    </property>
    <property name="text">
     <string>Top</string>
@@ -214,7 +213,7 @@
   <action name="actionEnd">
    <property name="icon">
     <iconset resource="src.qrc">
-     <normaloff>:/downest.png</normaloff>:/downest.png</iconset>
+     <normaloff>:/src/downest.png</normaloff>:/src/downest.png</iconset>
    </property>
    <property name="text">
     <string>End</string>

@@ -65,7 +65,7 @@ MainWindow::MainWindow(QWidget *parent)
                 thread->setFlag();
                 ui->comboBox->setEnabled(false);    //抓包时暂时无法选择网卡
                 thread->start();
-                ui->actionstart_capture->setIcon(QIcon(":/stop.png"));
+                ui->actionstart_capture->setIcon(QIcon(":/src/stop.png"));
                 countNumber = 0;
                 isStart = true;  
             }else{
@@ -78,7 +78,7 @@ MainWindow::MainWindow(QWidget *parent)
             thread->resetFlag();
             thread->quit();
             thread->wait();
-            ui->actionstart_capture->setIcon(QIcon(":/start.png"));
+            ui->actionstart_capture->setIcon(QIcon(":/src/start.png"));
             ui->comboBox->setEnabled(true);
             pcap_close(pointer);
             pointer = nullptr;
