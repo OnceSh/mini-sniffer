@@ -1261,10 +1261,10 @@ void MainWindow::on_lineEdit_returnPressed()
         if(target!=""){
             for(int i = 0;i < number;i++){
                 if(ui->tableWidget->item(i,4)->text() != target){
-                    qDebug()<<ui->tableWidget->item(i,4)->text()<<" ! "<<target;
+//                    qDebug()<<ui->tableWidget->item(i,4)->text()<<" ! "<<target;
                     ui->tableWidget->setRowHidden(i,true);
                 }else{
-                    qDebug()<<ui->tableWidget->item(i,4)->text()<<" ## "<<target;
+//                    qDebug()<<ui->tableWidget->item(i,4)->text()<<" ## "<<target;
                     ui->tableWidget->setRowHidden(i,false);
                     count++;
                 }
